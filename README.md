@@ -7,6 +7,12 @@ Maybe's implementation is contained in a single `struct`.
 
 You can find the reason this implementation was written in [this post on my blog](https://blog.aevitas.co.uk/maybe/).
 
+# get it
+
+You can obtain the latest version from NuGet. The NuGet package supports .NET Standard 1.0 through 2.0.
+
+![Get Maybe from NuGet](http://i.imgur.com/HtIw28Z.png)
+
 # example
 Constructing an option type can be done in several different ways. The first, and most obvious, is simply `new`-ing an instance:
 
