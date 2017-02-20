@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Maybe.Tests
+namespace Aevitas.Option.Tests
 {
     [TestClass]
     public class RequiresTests

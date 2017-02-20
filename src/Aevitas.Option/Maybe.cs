@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace Maybe
+namespace Aevitas.Option
 {
     /// <summary>
     ///     Represents an option type.

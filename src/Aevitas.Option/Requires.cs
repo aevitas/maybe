@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Maybe
+namespace Aevitas.Option
 {
     public static class Requires
     {
