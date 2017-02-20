@@ -5,6 +5,8 @@ While option types for value types are supported natively in the BCL through `Nu
 
 Maybe's implementation is contained in a single `struct`.
 
+You can find the reason this implementation was written in [this post on my blog](https://blog.aevitas.co.uk/maybe/).
+
 # example
 Constructing an option type can be done in several different ways. The first, and most obvious, is simply `new`-ing an instance:
 
@@ -30,6 +32,9 @@ To create a `Maybe<T>` instance from either a value type or a `Nullable<T>`, you
 ```csharp
     var maybe = Maybe.OfValueType(Guid.Empty);
 ```
+
+# license
+This code is licensed under the Apache 2.0 license. For a brief summary on what this license entails, please refer to [Tldrlegal](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)). Please respect all licenses.
 
 # contributions
 Questions and contributions are very much welcome. When submitting a pull request, please make sure it is accompanied by an issue on the [issue tracker](https://github.com/aevitas/maybe/issues), and if a non-trivial change, have been discussed prior to putting in the effort. 
